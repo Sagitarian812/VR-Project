@@ -9,6 +9,7 @@ public class PillarScript : MonoBehaviour
   
 
     public bool solved;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class PillarScript : MonoBehaviour
         {
             Debug.Log("COORECT SPHERE");
             other.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-            other.gameObject.GetComponent<Collider>().enabled = false; // maybe?
+            //other.gameObject.GetComponent<Collider>().enabled = false; // maybe?
             solved = true;
         }
         else

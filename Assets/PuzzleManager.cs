@@ -34,7 +34,7 @@ public class PuzzleManager : MonoBehaviour
         {
             if (simonSpawnCount < 1)
             {
-                spawnCube();
+                spawnSimonCube();
                 simonSpawnCount++;
                 Debug.Log("Cube Spawned");
             }
@@ -48,6 +48,10 @@ public class PuzzleManager : MonoBehaviour
             Instantiate(cube, pillarSpawnLocation.transform);
             pillarPuzzle.solved = false;
         }
+    }
+
+    public void spawnSimonCube()
+    {
         if (simonSaysPuzzle.solved == true)
         {
             Instantiate(cube, simonSpawnLocation.transform);
