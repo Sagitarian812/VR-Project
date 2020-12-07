@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1554502615501111290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.09200001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1229999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.27799994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4481963059362356, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23617483226401742, guid: df9ee541ca906df4ebb98efdef81c179,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c59fdcc895288f49b7550c54a4cffea, type: 2}
+    - target: {fileID: 59455702770412506, guid: df9ee541ca906df4ebb98efdef81c179,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.77399987
+      objectReference: {fileID: 0}
+    - target: {fileID: 114885248081669392, guid: df9ee541ca906df4ebb98efdef81c179,
+        type: 3}
+      propertyPath: inHandLerpSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 65638367670890574, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: df9ee541ca906df4ebb98efdef81c179, type: 3}
